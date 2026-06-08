@@ -37,7 +37,7 @@ export const DELIVERY_STATUS = [
  * @property {string} phone
  * @property {string} full_name
  * @property {string} avatar_url
- * @property {'renter'|'owner'|'driver'|'admin'} role
+ * @property {'renter'|'owner'|'transporters'|'admin'} role
  * @property {boolean} phone_verified
  * @property {boolean} email_verified
  * @property {boolean} id_verified

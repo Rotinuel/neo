@@ -5,7 +5,7 @@ import { cookies } from 'next/headers'
 const PROTECTED_ROUTES = [
   { prefix: '/renter',  roles: ['renter', 'admin'] },
   { prefix: '/owner',   roles: ['owner', 'admin'] },
-  { prefix: '/driver',  roles: ['driver', 'admin'] },
+  { prefix: '/transporters',  roles: ['driver', 'admin'] },
   { prefix: '/admin',   roles: ['admin'] },
   { prefix: '/settings', roles: null }, // any authenticated user
 ]
@@ -16,7 +16,7 @@ const AUTH_PAGES = ['/auth/login', '/auth/register']
 const ROLE_HOME = {
   renter: '/renter/dashboard',
   owner:  '/owner/dashboard',
-  driver: '/driver/dashboard',
+  driver: '/transporters/dashboard',
   admin:  '/admin/dashboard',
 }
 

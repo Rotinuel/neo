@@ -17,7 +17,7 @@ export default function Navbar() {
   const dashboardLink = {
     renter: '/renter/dashboard',
     owner: '/owner/dashboard',
-    driver: '/driver/dashboard',
+    driver: '/transporters/dashboard',
     admin: '/admin/dashboard',
   }[user?.role] || '/'
 

@@ -22,7 +22,7 @@ export default function LoginPage() {
   const roleRedirects = {
     renter: '/renter/dashboard',
     owner: '/owner/dashboard',
-    driver: '/driver/dashboard',
+    driver: '/transporters/dashboard',
     admin: '/admin/dashboard',
   }
 

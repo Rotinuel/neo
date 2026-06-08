@@ -30,7 +30,7 @@ export default function RegisterPage() {
   const redirectMap = {
     renter: '/renter/dashboard',
     owner: '/owner/listings/new',
-    driver: '/driver/dashboard',
+    driver: '/transporters/dashboard',
   }
 
   const handleSubmit = async (e) => {

@@ -25,9 +25,9 @@ const NAV = {
     { label: 'Earnings', href: '/owner/earnings', icon: DollarSign },
   ],
   driver: [
-    { label: 'Dashboard', href: '/driver/dashboard', icon: LayoutDashboard },
-    { label: 'Available Jobs', href: '/driver/jobs', icon: Briefcase },
-    { label: 'My Deliveries', href: '/driver/deliveries', icon: Truck },
+    { label: 'Dashboard', href: '/transporters/dashboard', icon: LayoutDashboard },
+    { label: 'Available Jobs', href: '/transporters/jobs', icon: Briefcase },
+    { label: 'My Deliveries', href: '/transporters/deliveries', icon: Truck },
   ],
   admin: [
     { label: 'Overview', href: '/admin/dashboard', icon: BarChart2 },

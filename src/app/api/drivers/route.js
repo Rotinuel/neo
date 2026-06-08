@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import { getSupabaseAdmin } from '@/lib/supabase'
 import { requireAuth } from '@/lib/auth'
 
-// GET /api/drivers/jobs — list jobs for driver
+// GET /api/drivers/jobs — list jobs for transporters
 export async function GET(request) {
   try {
     const user = await requireAuth(['driver', 'admin'])
@@ -87,7 +87,7 @@ export async function PATCH(request) {
       if (timestampMap[action]) updates[timestampMap[action]] = new Date().toISOString()
     }
 
-    // Update driver location
+    // Update transporters location
     if (driver_lat && driver_lng) {
       updates.driver_lat = driver_lat
       updates.driver_lng = driver_lng
