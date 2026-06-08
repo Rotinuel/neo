@@ -12,7 +12,8 @@ import toast from 'react-hot-toast'
 const ROLES = [
   { value: 'renter', label: 'Renter', desc: 'Find and rent generators', icon: User },
   { value: 'owner', label: 'Owner', desc: 'List your generators & earn', icon: Wrench },
-  { value: 'driver', label: 'Driver', desc: 'Deliver generators, earn per trip', icon: Truck },
+  { value: 'transporter', label: 'Driver', desc: 'Deliver' +
+        ' generators, earn per trip', icon: Truck },
 ]
 
 export default function RegisterPage() {
@@ -30,7 +31,7 @@ export default function RegisterPage() {
   const redirectMap = {
     renter: '/renter/dashboard',
     owner: '/owner/listings/new',
-    driver: '/transporters/dashboard',
+    transporter: '/transporters/dashboard',
   }
 
   const handleSubmit = async (e) => {
