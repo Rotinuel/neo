@@ -27,7 +27,7 @@ export async function POST(request) {
       .from('users')
       .select('id')
       .eq('email', email.toLowerCase())
-      .single()
+      .maybeSingle()
 
     if (existing) {
       return NextResponse.json({ error: 'Email already registered' }, { status: 409 })
