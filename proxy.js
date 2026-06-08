@@ -5,7 +5,7 @@ import { cookies } from 'next/headers'
 const PROTECTED_ROUTES = [
   { prefix: '/renter',  roles: ['renter', 'admin'] },
   { prefix: '/owner',   roles: ['owner', 'admin'] },
-  { prefix: '/transporters',  roles: ['driver', 'admin'] },
+  { prefix: '/transporters',  roles: ['transporter', 'admin'] },
   { prefix: '/admin',   roles: ['admin'] },
   { prefix: '/settings', roles: null }, // any authenticated user
 ]
