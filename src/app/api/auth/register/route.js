@@ -16,7 +16,7 @@ export async function POST(request) {
     if (password.length < 8) {
       return NextResponse.json({ error: 'Password must be at least 8 characters' }, { status: 400 })
     }
-    if (!['renter', 'owner', 'driver'].includes(role)) {
+    if (!['renter', 'owner', 'transporter'].includes(role)) {
       return NextResponse.json({ error: 'Invalid role' }, { status: 400 })
     }
 
