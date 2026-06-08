@@ -12,7 +12,7 @@ import toast from 'react-hot-toast'
 const ROLES = [
   { value: 'renter', label: 'Renter', desc: 'Find and rent generators', icon: User },
   { value: 'owner', label: 'Owner', desc: 'List your generators & earn', icon: Wrench },
-  { value: 'transporter', label: 'Driver', desc: 'Deliver' +
+  { value: 'transporter', label: 'Transporter', desc: 'Deliver' +
         ' generators, earn per trip', icon: Truck },
 ]
 
