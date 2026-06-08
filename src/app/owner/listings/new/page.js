@@ -296,7 +296,7 @@ export default function NewListingPage() {
                   <p className="text-xs font-semibold text-brand-400 uppercase tracking-wide mb-2">Your Earnings Estimate</p>
                   <div className="space-y-1 text-sm text-surface-700">
                     <div className="flex justify-between">
-                      <span>Per day (after 15% fee)</span>
+                      <span>Per day (after 5% fee)</span>
                       <span className="font-semibold text-surface-900">₦{Math.round(Number(form.price_daily) * 0.85).toLocaleString()}</span>
                     </div>
                     {form.price_weekly && (

@@ -235,7 +235,7 @@ export default async function ListingPage({ params }) {
                 ) : (
                   <div className="flex items-center gap-3 text-sm">
                     <Shield size={15} className="text-brand-500 shrink-0" />
-                    <span className="text-surface-700">Platform driver handles delivery</span>
+                    <span className="text-surface-700">Platform transporter handles delivery</span>
                   </div>
                 )}
                 {listing.security_deposit > 0 && (

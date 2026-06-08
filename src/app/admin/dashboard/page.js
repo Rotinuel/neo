@@ -71,7 +71,7 @@ export default function AdminDashboard() {
                 <BarChart2 size={15} className="text-brand-500" />
               </div>
               <Price amount={stats?.platformRevenue || 0} className="font-display font-bold text-3xl text-brand-400" />
-              <p className="text-xs text-surface-600 mt-1">15% platform fee</p>
+              <p className="text-xs text-surface-600 mt-1">5% platform fee</p>
             </div>
           </div>
 

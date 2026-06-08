@@ -25,7 +25,7 @@ export async function GET() {
     ])
 
     const totalRevenue = revenue?.reduce((sum, p) => sum + Number(p.amount), 0) || 0
-    const platformRevenue = totalRevenue * (Number(process.env.PLATFORM_FEE_PERCENT || 15) / 100)
+    const platformRevenue = totalRevenue * (Number(process.env.PLATFORM_FEE_PERCENT || 5) / 100)
 
     return NextResponse.json({
       stats: {

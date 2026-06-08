@@ -139,9 +139,9 @@ export default function HomePage() {
             <p className="font-display font-extrabold text-5xl text-brand-500 mb-6">₦480K</p>
             <div className="space-y-3">
               {[
-                { label: '7.5 KVA Generator', rate: '₦18,000/day', days: 'x 26 days' },
-                { label: 'Platform fee (15%)', rate: '-₦70,200', days: '' },
-                { label: 'Net Payout', rate: '₦397,800', days: '/month', highlight: true },
+                { label: '40 KVA Generator', rate: '₦35,000/day', days: 'x 26 days' },
+                { label: 'Platform fee (5%)', rate: '-₦52,000', days: '' },
+                { label: 'Net Payout', rate: '₦1,040,000', days: '/month', highlight: true },
               ].map((row, i) => (
                 <div key={i} className={`flex items-center justify-between py-2 border-b border-surface-300 last:border-0 ${row.highlight ? 'text-brand-500 font-semibold' : 'text-surface-700'}`}>
                   <span className="text-sm">{row.label}</span>
